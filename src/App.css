@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: azure;
+}
+.form{
+  input{
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-left: 35px;
+  }
+  Checkbox{
+    align-items:start;
+    text-align:start;
+  }
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+/* Table{
+  display: flex;
+  flex-direction: column;
+  word-spacing: 20px;
+} */
+/* body {
+  font-family: Arial, sans-serif;
+} */
+
+.structured-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.structured-table th, .structured-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+  
+}
+
+.structured-Table th {
+  background-color: #f2f2f2;
+}
+
+.structured-table tbody tr:hover {
+  background-color: #888888;
+}
